@@ -1,0 +1,68 @@
+.perfil, .about{
+    display: flex;
+    background-color: #D40A46;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.avatar{
+    width: 180px;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+.estrela{   
+    display: flex;
+    flex-direction: row;
+}
+
+.estrelarosa, .estrelaazul{
+    width: 30px;
+    margin: 10px;
+}
+
+.perfil .risco, .about .risco{
+    height: 2px;
+    width: 60px;
+    background-color: white;
+    align-self: center;
+    
+}
+
+.portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.portfolio .risco{
+    height: 2px;
+    width: 60px;
+    background-color: #2D3E50;
+    align-self: center;
+    
+}
+
+h2, h4{
+    font-size: 2rem;
+}
+
+.galeria{
+    display: flex;
+    width: 80%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.galeria img{
+    width: 300px;
+    height: auto;
+}
+/* rosa proxima seção #D40A46*/
+
+/* seção digital #2D3E50*/
+

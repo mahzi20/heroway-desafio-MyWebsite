@@ -6,7 +6,7 @@
 }
 
 .header-top{
-    background-color: #37415A;
+    background-color: #2A3D51;
     height: 10%;
     color: white;
     display: flex;
@@ -34,18 +34,4 @@
 
 li a:hover {
     background-color: #111;
-}
-
-.header-main{
-    display: flex;
-    background-color: crimson;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    padding: 50px;
-}
-
-.avatar{
-    width: 200px;
-    height: auto;
 }
