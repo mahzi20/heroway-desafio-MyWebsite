@@ -41,12 +41,12 @@
             </div>
 
             <div class= "galeria">
-                <img src="img/cabin.png" alt="casa">
-                <img src="img/cake.png" alt="bolo">
-                <img src="img/circus.png" alt="circo">
-                <img src="img/game.png" alt="jogo">
-                <img src="img/safe.png" alt="cofre">
-                <img src="img/submarine.png" alt="submarino">
+                <img src="img/cabin.png" title="Cabana" alt="cabana">
+                <img src="img/cake.png" title="Bolo" alt="bolo">
+                <img src="img/circus.png" title="Circo" alt="circo">
+                <img src="img/game.png" title="Joystick" alt="jogo">
+                <img src="img/safe.png" title="Cofre" alt="cofre">
+                <img src="img/submarine.png" title="Submarino" alt="submarino">
 
             </div>
     </div>
@@ -58,10 +58,34 @@
                 <div><img class="estrelarosa" src= "img/estrelarosa.png" title="Estrela"></div>
                 <div class="risco"></div>
             </div>
-        <h3>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
-            You can create your own custom avatar for the masterhead, change the icon in the dividers, and add your email adress to the contact form to make it fully functional!
-        </h3>
-        <button>Free Download</button>
+            <div class= "aboutcontent">
+                <div><h3>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</h3></div>
+                <div><h3>You can create your own custom avatar for the masterhead, change the icon in the dividers, and add your email adress to the contact form to make it fully functional!</h3></div>
+            </div>
+        <button class="downloadbtn"> <img src="img/downfinal.png" alt="download"> <span>Free Download!</span> </button>
+    </div>
+
+    <div class= "contactme">
+        <h4>CONTACT ME</h4>
+            <div class="estrela">
+                <div class="risco"></div>
+                <div><img class="estrelaazul" src= "img/estrelaazul.png" title="Estrela"></div>
+                <div class="risco"></div>
+            </div>
+
+            <div class= "formcontainer">
+                <form action="/action_page.php">
+                    <label for="lname">Name</label>
+                    <input type="text" id="tname" name="name">
+                    <label for="lemail">Email Adress</label>
+                    <input type="text" id="temail" name="email">
+                    <label for="lphone">Phone Number</label>
+                    <input type="text" id="tname" name="phone">
+                    <label for="lmessage">Message</label>
+                    <textarea class="tmessage" name="message" rows="10" cols="30"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
     </div>
 </body>
 </html>

@@ -5,6 +5,8 @@
     justify-content: space-around;
     flex-direction: column;
     padding: 50px;
+    width: 100%;
+    height: auto;
 }
 
 .avatar{
@@ -31,7 +33,7 @@
     
 }
 
-.portfolio{
+.portfolio, .contactme{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -39,7 +41,7 @@
     padding: 50px;
 }
 
-.portfolio .risco{
+.portfolio .risco, .contactme .risco{
     height: 2px;
     width: 60px;
     background-color: #2D3E50;
@@ -52,16 +54,92 @@ h2, h4{
 }
 
 .galeria{
-    display: flex;
     width: 80%;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-gap: 2rem;
 }
 
 .galeria img{
-    width: 300px;
+    width: 290px;
     height: auto;
+    
 }
+.galeria img:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
+
+.aboutcontent{
+    display: grid;
+    grid-auto-columns: 45%;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    width: 55%;
+    height: auto;    
+}
+
+.downloadbtn {
+    display: flex;
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid white;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px 28px;
+    margin-top: 2rem;
+  }
+  
+  .downloadbtn:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
+
+.downloadbtn img{
+    width: 20px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.formcontainer{
+    width: 50%;
+    height: auto;  
+}
+
+label{
+    margin-top: 2rem;
+    color: #2D3E50;
+}
+
+input[type=text] {
+    height: 2rem;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    border-bottom: 1px solid lightgrey;
+    margin: 0.5rem 0 0.5rem;
+  }
+
+  .tmessage{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    border-bottom: 1px solid lightgrey;
+    resize: none;
+    margin: 0.5rem 0 0.5rem;
+  }
+
+  input[type=submit] {
+    background-color: #D40A46;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #2D3E50;
+  }
 /* rosa proxima seção #D40A46*/
 
 /* seção digital #2D3E50*/
